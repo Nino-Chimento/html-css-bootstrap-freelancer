@@ -145,6 +145,19 @@ h1 {
   text-align: center;
   margin-bottom: 100px;
 }
+/* /main */
+/* footer */
+.footer_top {
+  background-color: #2C3E50;
+  height: 300px;
+}
+.footer_list {
+  width: 75%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+
 @media screen and (min-width: 992px) {
   .display_none {
     display: none;
