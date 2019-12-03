@@ -149,15 +149,42 @@ h1 {
 /* footer */
 .footer_top {
   background-color: #2C3E50;
-  height: 300px;
+
 }
 .footer_list {
   width: 75%;
   margin: auto;
   margin-top: 80px;
+  color: white;
 }
 
+.footer_list h4 {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+.footer_list p {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+.social {
+  list-style: none;
+}
+.social li {
+  display: inline-block;
+  font-size: 2.5em;
+  padding-right: 10px;
+  border-radius: 100%;
+}
+.social a {
+  color: white;
 
+
+}
+.social a:hover {
+
+  cursor: pointer;
+
+}
 @media screen and (min-width: 992px) {
   .display_none {
     display: none;
