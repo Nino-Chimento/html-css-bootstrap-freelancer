@@ -83,13 +83,20 @@ h1 {
   width: 100%;
   border-radius: 8px;
 }
-.padding {
-  padding: 20px 60px;
-
+.container_image {
+  width: 80%;
+  margin: auto;
+}
+.container_image .col-xs-12
+{
+  padding-bottom: 20px;
 }
 @media screen and (min-width: 992px) {
   .display_none {
     display: none;
+  }
+  .no_padding {
+    padding: 0 10px;
   }
 }
 @media screen and (max-width: 992px) {
