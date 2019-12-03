@@ -177,13 +177,20 @@ h1 {
 }
 .social a {
   color: white;
-
-
 }
+
+
 .social a:hover {
 
   cursor: pointer;
 
+}
+.footer_bottom {
+  background-color: #1A252F;
+}
+.footer_bottom p {
+  color:white;
+  padding: 10px;;
 }
 @media screen and (min-width: 992px) {
   .display_none {
