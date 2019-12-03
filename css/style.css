@@ -42,7 +42,7 @@
 /* banner */
 .banner {
   background-color: #1ABC9C;
-  height: 600px;
+  height: 700px;
   position: relative;
   margin-top: 70px;
 }
@@ -58,12 +58,12 @@
   height: 300px;
 }
 h1 {
-  font-size: 3em;
+  font-size: 5em;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 .logo_banner p{
-  font-size: 1.5em;
+  font-size: 2em;
   padding-top: 30px;
 }
 .line {
