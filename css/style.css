@@ -1,3 +1,39 @@
-body {
+/* [class*="col"]
+{
   background-color: red;
+  height: 200px;
+} */
+.no_list {
+  list-style: none;
+}
+.menu {
+  background-color: #2C3E50;
+  height: 90px;
+  vertical-align: middle;
+  line-height: 90px;
+}
+.menu .col-xs-9 a{
+  color: white;
+  font-size: 1.5em;
+}
+.menu_button {
+  background-color: #1ABC9C;
+}
+.no_list li{
+  display: inline;
+  font-size: 1em;
+  padding: 0 10px;
+}
+.no_list a{
+  color:white;
+}
+@media screen and (min-width: 992px) {
+  .display_none {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+.dispay_none_lg {
+  display: none;
+}
 }
