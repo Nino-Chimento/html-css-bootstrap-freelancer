@@ -71,7 +71,22 @@ h1 {
   width: 100px;
   background-color: white;
 }
+/* /fine header */
+/* main */
+.container-fluid h2{
+  font-size: 3em;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+.image img{
+  width: 100%;
+  border-radius: 8px;
+}
+.padding {
+  padding: 20px 60px;
 
+}
 @media screen and (min-width: 992px) {
   .display_none {
     display: none;
