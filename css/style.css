@@ -116,7 +116,7 @@ h1 {
 .write_about a {
   margin-top: 30px;
   background-color: #1ABC9C;
-  border-right: 4px solid white;
+  border: px solid white;
   height: 60px;
   width: 200px;
   vertical-align: middle;
@@ -132,6 +132,7 @@ h1 {
 }
 .form h2 {
   padding:30px 0;
+  font-size: 4em;
 }
 .form input{
   height: 100px;
