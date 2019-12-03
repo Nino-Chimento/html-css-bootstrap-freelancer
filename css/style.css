@@ -91,6 +91,23 @@ h1 {
 {
   padding-bottom: 20px;
 }
+/* /image */
+.about {
+  position: relative;
+  background-color: #1ABC9C;
+  height: 600px;
+  color: white;
+}
+.write_about {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background-color: red;
+  height: 200px;
+  width: 200px;
+
+}
 @media screen and (min-width: 992px) {
   .display_none {
     display: none;
