@@ -102,6 +102,25 @@ h1 {
 {
   padding-bottom: 20px;
 }
+.box {position: relative;}
+.box:hover {
+  cursor: pointer;
+}
+.box:hover .croce {
+  display: block;
+}
+
+.croce {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  display: none;
+}
+.fa-plus{
+  color: white;
+  font-size: 6em;
+}
 /* /image */
 .about {
   position: relative;
