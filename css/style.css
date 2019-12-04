@@ -71,6 +71,17 @@ h1 {
   width: 100px;
   background-color: white;
 }
+.fa-star {
+  font-size: 2em;
+}
+.star {
+  justify-content: center;
+  align-items: center;
+}
+.fa-horizontal-rule{
+  height: 5px;
+}
+
 /* /fine header */
 /* main */
 .container-fluid h2{
@@ -171,23 +182,14 @@ h1 {
   font-size: 1.3em;
   margin-bottom: 30px;
 }
+
+
+
+}
 .social {
-  list-style: none;
-}
-.social li {
   display: inline-block;
-  font-size: 1.5em;
-  padding-right: 10px;
-  border-radius: 100%;
-  height: 50px;
-  width: 50px;
-  background-color: red;
-  border: 2px solid white;
-  vertical-align:middle;
-}
-.social a {
   color: white;
-  padding: auto;
+
 }
 
 
