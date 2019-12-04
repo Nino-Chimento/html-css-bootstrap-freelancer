@@ -172,6 +172,7 @@ h1 {
 }
 .form input{
   height: 100px;
+  border:0;
 
 }
 .form a {
