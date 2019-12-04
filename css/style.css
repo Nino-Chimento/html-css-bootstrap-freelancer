@@ -183,21 +183,6 @@ h1 {
   margin-bottom: 30px;
 }
 
-
-
-}
-.social {
-  display: inline-block;
-  color: white;
-
-}
-
-
-.social a:hover {
-
-  cursor: pointer;
-
-}
 .footer_bottom {
   background-color: #1A252F;
 }
@@ -214,7 +199,7 @@ h1 {
   }
 }
 @media screen and (max-width: 992px) {
-.dispay_none_lg {
-  display: none;
-}
+  .dispay_none_lg {
+    display: none;
+  }
 }
