@@ -182,7 +182,21 @@ h1 {
   font-size: 1.3em;
   margin-bottom: 30px;
 }
-
+.footer_top a {
+  color: white;
+}
+ .footer_top i{
+   height: 50px;
+   width: 50px;
+   vertical-align: middle;
+   line-height: 50px;
+   border: 1px solid white;
+   border-radius: 100%;
+ }
+.footer_top i:hover{
+  background-color: white;
+  color: blue;
+}
 .footer_bottom {
   background-color: #1A252F;
 }
